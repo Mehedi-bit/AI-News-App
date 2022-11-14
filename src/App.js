@@ -142,12 +142,8 @@ const App = () => {
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       {!newsArticles.length ? (
         <Footer>
-          <Typography variant="body1" component="h2">
-            Created by
-            <Link href="http://youtube.com/antonfrancisjeejo13">
-              {" "}
-              Anton Francis Jeejo
-            </Link>
+          <Typography variant="body1" component="h5">
+          ©All Rights are reserved
           </Typography>
         </Footer>
       ) : null}
